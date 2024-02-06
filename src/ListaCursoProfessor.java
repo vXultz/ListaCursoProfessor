@@ -142,7 +142,7 @@ public class ListaCursoProfessor {
             lista.remove(indice);
             System.out.println("Item removido!");
         } else {
-            System.out.println("O índice passado não existe");
+            System.out.println("O índice passado não existe!");
         }
     }
     
@@ -159,7 +159,7 @@ public class ListaCursoProfessor {
             System.out.println("Curso marcado como conluído!");
             removerItem(listaCursos, indice);
         } else {
-            System.out.println("O índice passado não existe");
+            System.out.println("O índice passado não existe!");
         }
     }
 }
